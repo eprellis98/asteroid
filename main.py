@@ -46,7 +46,7 @@ def main():
                     asteroid.split()
                     shot.kill()
 
-        screen.fill("black")
+        screen.fill((0, 0, 51))
 
         for obj in drawable:
             obj.draw(screen)
